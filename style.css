@@ -1,0 +1,12 @@
+img{
+  height: 400px;
+}
+.link a {
+  font-size: 18px;
+}
+a:hover {
+  font-weight: bolder;
+} 
+#git {
+  font-size: 30px;
+}
