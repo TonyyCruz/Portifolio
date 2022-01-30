@@ -1,11 +1,19 @@
 body {
-  background-color: rgb(248, 249, 250)
+  background-color: rgb(248, 249, 250);
+  font-family: 'Finger Paint', cursive;
+  font-family: 'Righteous', cursive;
+  margin: 25px;
 }
-img{
-  height: 400px;
+#foto-perfil {
+  height: 250px;
+  padding: 5px;
+  background-color: rgb(84, 165, 165);
 }
-.link a {
+.descricao a {
   font-size: 18px;
+}
+.descricao {
+  padding-left: 250px;
 }
 a:hover {
   font-weight: bolder;
@@ -16,4 +24,21 @@ a:hover {
 h1 {
   font-family: sans-serif;
   font-size: 50px;
+  text-align: center;
+}
+
+#head img{
+float: left;
+}
+#foto-box {
+  height: 260px;
+}
+
+
+
+
+
+
+div {
+  border: 2px solid green;
 }
