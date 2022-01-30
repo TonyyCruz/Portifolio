@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(248, 249, 250)
+}
 img{
   height: 400px;
 }
@@ -9,4 +12,8 @@ a:hover {
 } 
 #git {
   font-size: 30px;
+}
+h1 {
+  font-family: sans-serif;
+  font-size: 50px;
 }
