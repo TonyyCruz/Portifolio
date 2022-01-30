@@ -3,6 +3,7 @@ body {
   font-family: 'Finger Paint', cursive;
   font-family: 'Righteous', cursive;
   margin: 25px;
+  padding: 2%;
 }
 #foto-perfil {
   height: 250px;
@@ -13,7 +14,9 @@ body {
   font-size: 18px;
 }
 .descricao {
-  padding-left: 250px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
 }
 a:hover {
   font-weight: bolder;
@@ -32,8 +35,11 @@ float: left;
 }
 #foto-box {
   height: 260px;
+  position: relative;
 }
-
+ul li:nth-child(odd) {
+  background-color: khaki;
+}
 
 
 
