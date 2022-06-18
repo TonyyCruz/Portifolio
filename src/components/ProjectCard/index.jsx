@@ -12,7 +12,7 @@ export default function ProjectCard() {
         <img src={ teste } alt="testando" />
         <div className="info">
         <h1>Project name</h1>
-        <p>Descrição abreviada do projeto.
+        <p>Descrição abreviada do projeto!
         </p>
         <button type="button" onClick={ readMore }>Mais</button>
         </div>
