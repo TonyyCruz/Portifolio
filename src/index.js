@@ -9,7 +9,7 @@ import PortfolioProvider from './context/PortfolioProvider';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename={ process.env.PUBLIC_URL }>
+    <BrowserRouter>
       <PortfolioProvider>
         <App />
       </PortfolioProvider>
